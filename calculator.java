@@ -1,0 +1,9 @@
+public class calculator {
+    public static void main (String [] arguments) {
+        int operator, n1, n2;
+        System.out.println("1 - Add \n 2 - Subtract \n 3 - Multiply \n 4 - Divide");
+        
+    }
+    
+}
+ 
