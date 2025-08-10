@@ -16,15 +16,20 @@ public class calculator {
                 result = n1 + n2;
                 break;
             case 2:
-            result = n1 - n2;
+                result = n1 - n2;
                 break;
             case 3:
-            result = n1 * n2;
+                result = n1 * n2;
                 break;
             case 4:
-            result = n1 / n2;
+                result = n1 / n2;
                 break;
+
+                default:
+                    System.out.println("Entered operator is not valid");
         }
+
+        System.out.println("Result is : " + result);
     }
     
 }
